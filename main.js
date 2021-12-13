@@ -81,7 +81,7 @@ function meteoUpdate(){
               var emoji = "🌤️";
             if(meteo.weather[0].main == "Clouds")
               var emoji = "☁️";
-            if(meteo.weather[0].main == "Mist")
+            if(meteo.weather[0].main == "Mist" meteo.weather[0].main == "Fog")
               var emoji = "🌫️";
             if(meteo.weather[0].main == "Rain" || meteo.weather[0].main == "Drizzle")
               var emoji = "🌧️";
