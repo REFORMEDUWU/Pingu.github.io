@@ -3,7 +3,7 @@ var isdark = 0;
 function updateSpotify() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "https://api.spotify.com/v1/me/player/currently-playing");
-    xhr.setRequestHeader("Authorization", "Bearer APIKEY");
+    xhr.setRequestHeader("Authorization", "c661bf5559764792b256797f07de0669");
     xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
         var song = new Array();
